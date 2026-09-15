@@ -5,8 +5,12 @@ public class  PemilihanBilanganNoAbsen2{
         Scanner sc=new Scanner (System.in);
         System.out.print("Masukkan Sebuah Angka: ");
         int angka=sc.nextInt();
-        String hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
-        System.out.println("Bilangan Tersebut adalah bilangan " + hasil );
+         if (angka % 2 == 0) 
+         System.out.println("Angka " + " Termasuk Bilangan Genap ");
+       else 
+         System.out.println("Angka " + " Termasuk Bilangan Ganjil ");
+      
+        System.out.println("Bilangan Tersebut adalah bilangan " + angka );
 sc.close();
     }
 }
